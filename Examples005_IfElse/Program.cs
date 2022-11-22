@@ -2,7 +2,7 @@
 Console.Write("Введите имя пользователя: ");
 string username = Console.ReadLine();
 
-if(username.ToLower() == "Маша")
+if(username.ToLower() == "Маша") //ToLower() не работает, хз почему!
 {
     Console.WriteLine("Ура, это же МАША!");
 }
